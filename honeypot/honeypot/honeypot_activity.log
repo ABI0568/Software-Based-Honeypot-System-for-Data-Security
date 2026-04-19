@@ -1,0 +1,257 @@
+2026-03-19 12:51:25,907 - INFO - Attack Detected | IP: 127.0.0.1 | Username: admin | Password: hacker123
+2026-03-19 12:52:14,626 - ERROR - Error handling attacker 127.0.0.1: [WinError 10053] An established connection was aborted by the software in your host machine
+2026-03-19 12:52:41,770 - INFO - Attack Detected | IP: 127.0.0.1 | Username:  | Password: 
+2026-03-19 12:53:57,999 - INFO - Attack Detected | IP: 127.0.0.1 | Username: admin | Password: hacker123
+2026-03-19 12:54:17,241 - INFO - Attack Detected | IP: 127.0.0.1 | Username: <empty_or_binary> | Password: <empty_or_binary>
+2026-03-19 12:54:17,637 - ERROR - Error handling attacker 127.0.0.1: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-03-19 13:27:56,279 - INFO - Attack Detected | IP: 127.0.0.1 | Username: admin | Password: hacker123
+2026-03-19 13:28:00,241 - INFO - Attack Detected | IP: 127.0.0.1 | Username: admin | Password: hacker123
+2026-03-19 13:32:06,343 - INFO - Attack Detected | IP: 127.0.0.1 | Username: admin
+hacker123 | Password: <empty_or_binary>
+2026-03-19 13:33:48,841 - INFO - Attack Detected | IP: 127.0.0.1 | Username: fastuser | Password: fastpassword
+2026-03-19 13:59:13,057 - INFO - Attack Detected | IP: 127.0.0.1 | Username: admin | Password: hacker123
+2026-03-19 14:05:02,469 - INFO - Attack Detected | IP: 127.0.0.1 | Username: test | Password: pass
+2026-03-19 14:05:23,877 - INFO - Attack Detected | IP: 127.0.0.1 | Username: admin | Password: hacker123
+2026-03-19 14:05:55,861 - INFO - Attack Detected | IP: 127.0.0.1 | Username: a | Password: d
+2026-03-19 14:08:16,225 - INFO - Attack Detected | IP: 127.0.0.1 | Username: admin | Password: hacker123
+2026-03-19 14:10:18,725 - INFO - Attack Detected | IP: 127.0.0.1 | Username: admin | Password: hacker123
+2026-03-19 14:10:33,019 - INFO - Attack Detected | IP: 127.0.0.1 | Username: admin | Password: hacker123
+2026-03-19 14:11:38,724 - INFO - Attack Detected | IP: 127.0.0.1 | Username: admin | Password: hacker123
+2026-03-19 14:16:57,319 - INFO - Attack Detected | IP: 127.0.0.1 | Username: admin | Password: hacker123
+2026-03-19 14:35:33,008 - INFO - Attack Detected | IP: 127.0.0.1 | Username: admin | Password: hacker123
+2026-03-19 14:37:16,992 - INFO - Attack Detected | IP: 127.0.0.1 | Username: admin | Password: hacker123
+2026-03-19 14:54:43,860 - INFO - Attack Detected | IP: 127.0.0.1 | Username: admin | Password: hacker123
+2026-03-19 14:54:58,148 - INFO - Attack Detected | IP: 127.0.0.1 | Username: admin | Password: hacker123
+2026-04-01 18:54:44,579 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-01 18:54:44,579 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-01 18:54:44,604 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-01 18:54:45,663 - WARNING -  * Debugger is active!
+2026-04-01 18:54:45,671 - INFO -  * Debugger PIN: 705-466-690
+2026-04-01 18:56:03,710 - INFO - 127.0.0.1 - - [01/Apr/2026 18:56:03] "GET /login HTTP/1.1" 200 -
+2026-04-01 18:56:05,329 - INFO - 127.0.0.1 - - [01/Apr/2026 18:56:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-01 18:56:34,840 - INFO - Attack Detected | IP: 127.0.0.1 | Username: fakeuser | Password: fakepassword
+2026-04-01 18:56:34,935 - INFO - 127.0.0.1 - - [01/Apr/2026 18:56:34] "POST /login HTTP/1.1" 200 -
+2026-04-01 19:09:27,364 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-01 19:09:27,365 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-01 19:09:27,395 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-01 19:09:28,159 - WARNING -  * Debugger is active!
+2026-04-01 19:09:28,167 - INFO -  * Debugger PIN: 705-466-690
+2026-04-01 19:10:09,323 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-01 19:10:09,324 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-01 19:10:09,343 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-01 19:10:10,037 - WARNING -  * Debugger is active!
+2026-04-01 19:10:10,043 - INFO -  * Debugger PIN: 705-466-690
+2026-04-01 19:11:24,665 - INFO - 127.0.0.1 - - [01/Apr/2026 19:11:24] "[32mGET / HTTP/1.1[0m" 302 -
+2026-04-01 19:11:24,688 - INFO - 127.0.0.1 - - [01/Apr/2026 19:11:24] "GET /login HTTP/1.1" 200 -
+2026-04-01 19:11:24,905 - INFO - 127.0.0.1 - - [01/Apr/2026 19:11:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-01 19:11:39,400 - INFO - Attack Detected | IP: 127.0.0.1 | Username: 31gmail.com | Password: edd
+2026-04-01 19:11:39,412 - INFO - 127.0.0.1 - - [01/Apr/2026 19:11:39] "POST /login HTTP/1.1" 200 -
+2026-04-01 19:12:55,816 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-01 19:12:55,816 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-01 19:12:55,831 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-01 19:12:56,527 - WARNING -  * Debugger is active!
+2026-04-01 19:12:56,529 - INFO -  * Debugger PIN: 705-466-690
+2026-04-01 19:13:00,371 - INFO - 127.0.0.1 - - [01/Apr/2026 19:13:00] "[32mGET / HTTP/1.1[0m" 302 -
+2026-04-01 19:13:00,467 - INFO - 127.0.0.1 - - [01/Apr/2026 19:13:00] "GET /login HTTP/1.1" 200 -
+2026-04-01 19:13:22,830 - INFO - Attack Detected | IP: 127.0.0.1 | Username: 55@gmail.com | Password: hubghhh
+2026-04-01 19:13:22,837 - INFO - 127.0.0.1 - - [01/Apr/2026 19:13:22] "POST /login HTTP/1.1" 200 -
+2026-04-07 21:00:01,279 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-07 21:00:01,279 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-07 21:00:01,300 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-07 21:00:01,989 - WARNING -  * Debugger is active!
+2026-04-07 21:00:01,991 - INFO -  * Debugger PIN: 705-466-690
+2026-04-07 21:00:07,725 - INFO - 127.0.0.1 - - [07/Apr/2026 21:00:07] "[32mGET / HTTP/1.1[0m" 302 -
+2026-04-07 21:00:07,846 - INFO - 127.0.0.1 - - [07/Apr/2026 21:00:07] "GET /login HTTP/1.1" 200 -
+2026-04-07 21:00:08,086 - INFO - 127.0.0.1 - - [07/Apr/2026 21:00:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-07 21:00:17,284 - INFO - Attack Detected | IP: 127.0.0.1 | Username: 33@gmail.com | Password: 333
+2026-04-07 21:00:17,294 - INFO - 127.0.0.1 - - [07/Apr/2026 21:00:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-07 21:00:17,349 - INFO - 127.0.0.1 - - [07/Apr/2026 21:00:17] "GET / HTTP/1.1" 200 -
+2026-04-07 21:00:28,618 - INFO - Attack Detected | IP: 127.0.0.1 | Username: 33@gmail.com | Password: 3
+2026-04-07 21:00:28,630 - INFO - 127.0.0.1 - - [07/Apr/2026 21:00:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-07 21:00:28,639 - INFO - 127.0.0.1 - - [07/Apr/2026 21:00:28] "GET / HTTP/1.1" 200 -
+2026-04-07 21:00:39,838 - INFO - Attack Detected | IP: 127.0.0.1 | Username: 33@gmail.com | Password: 123
+2026-04-07 21:00:39,849 - INFO - 127.0.0.1 - - [07/Apr/2026 21:00:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-07 21:00:39,860 - INFO - 127.0.0.1 - - [07/Apr/2026 21:00:39] "GET / HTTP/1.1" 200 -
+2026-04-07 21:01:09,921 - INFO - 127.0.0.1 - - [07/Apr/2026 21:01:09] "GET /register HTTP/1.1" 200 -
+2026-04-07 21:01:30,038 - INFO - 127.0.0.1 - - [07/Apr/2026 21:01:30] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-04-07 21:01:30,042 - INFO - 127.0.0.1 - - [07/Apr/2026 21:01:30] "GET /login HTTP/1.1" 200 -
+2026-04-07 21:01:36,394 - INFO - 127.0.0.1 - - [07/Apr/2026 21:01:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-07 21:01:36,404 - INFO - 127.0.0.1 - - [07/Apr/2026 21:01:36] "GET / HTTP/1.1" 200 -
+2026-04-07 21:01:41,650 - INFO - 127.0.0.1 - - [07/Apr/2026 21:01:41] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-07 21:01:41,660 - INFO - 127.0.0.1 - - [07/Apr/2026 21:01:41] "GET /login HTTP/1.1" 200 -
+2026-04-07 21:01:49,484 - INFO - 127.0.0.1 - - [07/Apr/2026 21:01:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-07 21:01:49,495 - INFO - 127.0.0.1 - - [07/Apr/2026 21:01:49] "GET / HTTP/1.1" 200 -
+2026-04-07 21:01:56,752 - INFO - 127.0.0.1 - - [07/Apr/2026 21:01:56] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-07 21:01:56,759 - INFO - 127.0.0.1 - - [07/Apr/2026 21:01:56] "GET /login HTTP/1.1" 200 -
+2026-04-07 21:21:49,012 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-07 21:21:49,012 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-07 21:21:49,031 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-07 21:21:49,819 - WARNING -  * Debugger is active!
+2026-04-07 21:21:49,822 - INFO -  * Debugger PIN: 705-466-690
+2026-04-07 21:22:13,593 - INFO - Attack Detected | IP: 127.0.0.1 | Username: 123@gmail.com | Password: 123
+2026-04-07 21:22:13,600 - INFO - 127.0.0.1 - - [07/Apr/2026 21:22:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-07 21:22:13,628 - INFO - 127.0.0.1 - - [07/Apr/2026 21:22:13] "GET / HTTP/1.1" 200 -
+2026-04-08 21:17:37,008 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-08 21:17:37,009 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-08 21:17:37,043 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-08 21:17:37,890 - WARNING -  * Debugger is active!
+2026-04-08 21:17:37,895 - INFO -  * Debugger PIN: 705-466-690
+2026-04-08 21:18:23,986 - INFO - 127.0.0.1 - - [08/Apr/2026 21:18:23] "GET /login HTTP/1.1" 200 -
+2026-04-08 21:18:24,684 - INFO - 127.0.0.1 - - [08/Apr/2026 21:18:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-08 21:19:31,414 - INFO - 127.0.0.1 - - [08/Apr/2026 21:19:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-08 21:19:31,725 - INFO - 127.0.0.1 - - [08/Apr/2026 21:19:31] "GET / HTTP/1.1" 200 -
+2026-04-08 21:19:42,658 - INFO - 127.0.0.1 - - [08/Apr/2026 21:19:42] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-08 21:19:42,798 - INFO - 127.0.0.1 - - [08/Apr/2026 21:19:42] "GET /login HTTP/1.1" 200 -
+2026-04-08 21:20:06,881 - INFO - Attack Detected | IP: 127.0.0.1 | Username: 33@gmail.com | Password: wrongpassword
+2026-04-08 21:20:06,938 - INFO - 127.0.0.1 - - [08/Apr/2026 21:20:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-08 21:20:07,092 - INFO - 127.0.0.1 - - [08/Apr/2026 21:20:07] "GET / HTTP/1.1" 200 -
+2026-04-08 21:20:18,741 - INFO - 127.0.0.1 - - [08/Apr/2026 21:20:18] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-08 21:20:19,011 - INFO - 127.0.0.1 - - [08/Apr/2026 21:20:19] "GET /login HTTP/1.1" 200 -
+2026-04-08 21:20:33,222 - INFO - 127.0.0.1 - - [08/Apr/2026 21:20:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-08 21:20:33,289 - INFO - 127.0.0.1 - - [08/Apr/2026 21:20:33] "GET / HTTP/1.1" 200 -
+2026-04-08 21:20:45,171 - INFO - 127.0.0.1 - - [08/Apr/2026 21:20:45] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-08 21:20:45,348 - INFO - 127.0.0.1 - - [08/Apr/2026 21:20:45] "GET /login HTTP/1.1" 200 -
+2026-04-08 21:20:57,806 - INFO - Attack Detected | IP: 127.0.0.1 | Username: 33@gmail.com | Password: wrongpassword
+2026-04-08 21:20:57,855 - INFO - 127.0.0.1 - - [08/Apr/2026 21:20:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-08 21:20:58,082 - INFO - 127.0.0.1 - - [08/Apr/2026 21:20:58] "GET / HTTP/1.1" 200 -
+2026-04-08 21:21:10,373 - INFO - 127.0.0.1 - - [08/Apr/2026 21:21:10] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-08 21:21:10,770 - INFO - 127.0.0.1 - - [08/Apr/2026 21:21:10] "GET /login HTTP/1.1" 200 -
+2026-04-08 21:30:29,563 - INFO - Attack Detected | IP: 127.0.0.1 | Username: 123@gmail.com | Password: 123
+2026-04-08 21:30:29,571 - INFO - 127.0.0.1 - - [08/Apr/2026 21:30:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-08 21:30:29,581 - INFO - 127.0.0.1 - - [08/Apr/2026 21:30:29] "GET / HTTP/1.1" 200 -
+2026-04-08 21:42:42,609 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-08 21:42:42,610 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-08 21:42:42,631 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-08 21:42:43,493 - WARNING -  * Debugger is active!
+2026-04-08 21:42:43,498 - INFO -  * Debugger PIN: 705-466-690
+2026-04-08 21:42:59,376 - INFO - 127.0.0.1 - - [08/Apr/2026 21:42:59] "[32mGET / HTTP/1.1[0m" 302 -
+2026-04-08 21:42:59,376 - INFO - 127.0.0.1 - - [08/Apr/2026 21:42:59] "GET /login HTTP/1.1" 200 -
+2026-04-08 21:42:59,584 - INFO - 127.0.0.1 - - [08/Apr/2026 21:42:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-08 21:43:09,165 - INFO - 127.0.0.1 - - [08/Apr/2026 21:43:09] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-08 21:43:09,172 - INFO - 127.0.0.1 - - [08/Apr/2026 21:43:09] "GET / HTTP/1.1" 200 -
+2026-04-08 21:43:45,681 - INFO - 127.0.0.1 - - [08/Apr/2026 21:43:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-08 21:43:45,688 - INFO - 127.0.0.1 - - [08/Apr/2026 21:43:45] "GET / HTTP/1.1" 200 -
+2026-04-08 21:44:00,185 - INFO - 127.0.0.1 - - [08/Apr/2026 21:44:00] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-08 21:44:00,194 - INFO - 127.0.0.1 - - [08/Apr/2026 21:44:00] "GET /login HTTP/1.1" 200 -
+2026-04-08 21:44:05,774 - INFO - 127.0.0.1 - - [08/Apr/2026 21:44:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-08 21:44:05,784 - INFO - 127.0.0.1 - - [08/Apr/2026 21:44:05] "GET / HTTP/1.1" 200 -
+2026-04-08 21:44:07,116 - INFO - 127.0.0.1 - - [08/Apr/2026 21:44:07] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-08 21:44:07,129 - INFO - 127.0.0.1 - - [08/Apr/2026 21:44:07] "GET /login HTTP/1.1" 200 -
+2026-04-08 22:02:32,229 - INFO -  * Detected change in 'C:\\honeypot\\login_page\\app.py', reloading
+2026-04-08 22:02:32,229 - INFO -  * Detected change in 'C:\\honeypot\\login_page\\app.py', reloading
+2026-04-08 22:02:32,935 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-08 22:02:35,644 - WARNING -  * Debugger is active!
+2026-04-08 22:02:35,649 - INFO -  * Debugger PIN: 705-466-690
+2026-04-08 22:04:07,827 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-08 22:04:07,827 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-08 22:04:07,852 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-08 22:04:08,708 - WARNING -  * Debugger is active!
+2026-04-08 22:04:08,713 - INFO -  * Debugger PIN: 705-466-690
+2026-04-08 22:04:10,324 - INFO -  * Detected change in 'C:\\honeypot\\login_page\\seed_db.py', reloading
+2026-04-08 22:04:10,326 - INFO -  * Detected change in 'C:\\honeypot\\login_page\\seed_db.py', reloading
+2026-04-08 22:04:10,513 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-08 22:04:11,862 - WARNING -  * Debugger is active!
+2026-04-08 22:04:11,866 - INFO -  * Debugger PIN: 705-466-690
+2026-04-08 22:04:29,711 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-08 22:04:29,711 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-08 22:04:29,731 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-08 22:04:30,529 - WARNING -  * Debugger is active!
+2026-04-08 22:04:30,529 - INFO -  * Debugger PIN: 705-466-690
+2026-04-08 22:04:46,093 - INFO - 127.0.0.1 - - [08/Apr/2026 22:04:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-08 22:04:46,126 - INFO - 127.0.0.1 - - [08/Apr/2026 22:04:46] "GET / HTTP/1.1" 200 -
+2026-04-08 22:04:49,485 - INFO - 127.0.0.1 - - [08/Apr/2026 22:04:49] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-08 22:04:49,497 - INFO - 127.0.0.1 - - [08/Apr/2026 22:04:49] "GET /login HTTP/1.1" 200 -
+2026-04-08 22:04:51,380 - INFO - 127.0.0.1 - - [08/Apr/2026 22:04:51] "GET /register HTTP/1.1" 200 -
+2026-04-08 22:04:57,623 - INFO - 127.0.0.1 - - [08/Apr/2026 22:04:57] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-04-08 22:04:57,633 - INFO - 127.0.0.1 - - [08/Apr/2026 22:04:57] "GET /register HTTP/1.1" 200 -
+2026-04-08 22:05:09,884 - INFO - 127.0.0.1 - - [08/Apr/2026 22:05:09] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-04-08 22:05:09,900 - INFO - 127.0.0.1 - - [08/Apr/2026 22:05:09] "GET /register HTTP/1.1" 200 -
+2026-04-08 22:13:19,585 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-08 22:13:19,585 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-08 22:13:19,607 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-08 22:13:20,402 - WARNING -  * Debugger is active!
+2026-04-08 22:13:20,405 - INFO -  * Debugger PIN: 705-466-690
+2026-04-08 22:13:26,193 - INFO - 127.0.0.1 - - [08/Apr/2026 22:13:26] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-04-08 22:13:26,216 - INFO - 127.0.0.1 - - [08/Apr/2026 22:13:26] "GET /register HTTP/1.1" 200 -
+2026-04-08 22:13:28,221 - INFO - 127.0.0.1 - - [08/Apr/2026 22:13:28] "GET /login HTTP/1.1" 200 -
+2026-04-08 22:13:43,182 - INFO - 127.0.0.1 - - [08/Apr/2026 22:13:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-08 22:13:43,197 - INFO - 127.0.0.1 - - [08/Apr/2026 22:13:43] "GET / HTTP/1.1" 200 -
+2026-04-08 22:15:15,886 - INFO - 127.0.0.1 - - [08/Apr/2026 22:15:15] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-08 22:15:15,893 - INFO - 127.0.0.1 - - [08/Apr/2026 22:15:15] "GET /login HTTP/1.1" 200 -
+2026-04-08 22:16:20,282 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-08 22:16:20,282 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-08 22:16:20,307 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-08 22:16:21,294 - WARNING -  * Debugger is active!
+2026-04-08 22:16:21,298 - INFO -  * Debugger PIN: 705-466-690
+2026-04-08 22:16:27,662 - INFO - 127.0.0.1 - - [08/Apr/2026 22:16:27] "[32mGET / HTTP/1.1[0m" 302 -
+2026-04-08 22:16:27,862 - INFO - 127.0.0.1 - - [08/Apr/2026 22:16:27] "GET /login HTTP/1.1" 200 -
+2026-04-08 22:16:28,020 - INFO - 127.0.0.1 - - [08/Apr/2026 22:16:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-08 22:16:29,771 - INFO - 127.0.0.1 - - [08/Apr/2026 22:16:29] "GET /register HTTP/1.1" 200 -
+2026-04-08 22:16:43,058 - INFO - 127.0.0.1 - - [08/Apr/2026 22:16:43] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-04-08 22:16:43,064 - INFO - 127.0.0.1 - - [08/Apr/2026 22:16:43] "GET /login HTTP/1.1" 200 -
+2026-04-08 22:16:53,931 - INFO - 127.0.0.1 - - [08/Apr/2026 22:16:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-08 22:16:53,946 - INFO - 127.0.0.1 - - [08/Apr/2026 22:16:53] "GET / HTTP/1.1" 200 -
+2026-04-08 22:17:07,320 - INFO - 127.0.0.1 - - [08/Apr/2026 22:17:07] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-08 22:17:07,333 - INFO - 127.0.0.1 - - [08/Apr/2026 22:17:07] "GET /login HTTP/1.1" 200 -
+2026-04-08 22:17:12,462 - INFO - Attack Detected | IP: 127.0.0.1 | Username: 33@gmail.com | Password: r
+2026-04-08 22:17:12,469 - INFO - 127.0.0.1 - - [08/Apr/2026 22:17:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-08 22:17:12,481 - INFO - 127.0.0.1 - - [08/Apr/2026 22:17:12] "GET / HTTP/1.1" 200 -
+2026-04-08 22:18:00,487 - INFO - 127.0.0.1 - - [08/Apr/2026 22:18:00] "GET /edit/1 HTTP/1.1" 200 -
+2026-04-17 08:53:45,441 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-17 08:53:45,442 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-17 08:53:45,495 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-17 08:53:48,344 - WARNING -  * Debugger is active!
+2026-04-17 08:53:48,351 - INFO -  * Debugger PIN: 705-466-690
+2026-04-17 08:53:55,893 - INFO - 127.0.0.1 - - [17/Apr/2026 08:53:55] "[32mGET / HTTP/1.1[0m" 302 -
+2026-04-17 08:53:56,425 - INFO - 127.0.0.1 - - [17/Apr/2026 08:53:56] "GET /login HTTP/1.1" 200 -
+2026-04-17 08:53:59,471 - INFO - 127.0.0.1 - - [17/Apr/2026 08:53:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-17 08:54:05,841 - INFO - Attack Detected | IP: 127.0.0.1 | Username: 123@gmail.com | Password: 123
+2026-04-17 08:54:05,854 - INFO - 127.0.0.1 - - [17/Apr/2026 08:54:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-17 08:54:05,911 - INFO - 127.0.0.1 - - [17/Apr/2026 08:54:05] "GET / HTTP/1.1" 200 -
+2026-04-17 08:54:35,684 - INFO - Attack Detected | IP: 127.0.0.1 | Username: admin | Password: Password
+2026-04-17 08:54:35,808 - INFO - 127.0.0.1 - - [17/Apr/2026 08:54:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-17 08:54:35,827 - INFO - 127.0.0.1 - - [17/Apr/2026 08:54:35] "GET / HTTP/1.1" 200 -
+2026-04-17 08:54:38,921 - INFO - 127.0.0.1 - - [17/Apr/2026 08:54:38] "GET /login HTTP/1.1" 200 -
+2026-04-17 08:54:44,864 - INFO - Attack Detected | IP: 127.0.0.1 | Username: admin | Password: password
+2026-04-17 08:54:44,924 - INFO - 127.0.0.1 - - [17/Apr/2026 08:54:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-17 08:54:44,969 - INFO - 127.0.0.1 - - [17/Apr/2026 08:54:44] "GET / HTTP/1.1" 200 -
+2026-04-17 08:54:49,792 - INFO - 127.0.0.1 - - [17/Apr/2026 08:54:49] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-17 08:54:49,804 - INFO - 127.0.0.1 - - [17/Apr/2026 08:54:49] "GET /login HTTP/1.1" 200 -
+2026-04-17 08:54:52,388 - INFO - 127.0.0.1 - - [17/Apr/2026 08:54:52] "GET /register HTTP/1.1" 200 -
+2026-04-17 08:55:23,089 - INFO - 127.0.0.1 - - [17/Apr/2026 08:55:23] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-04-17 08:55:23,097 - INFO - 127.0.0.1 - - [17/Apr/2026 08:55:23] "GET /login HTTP/1.1" 200 -
+2026-04-17 08:55:34,569 - INFO - 127.0.0.1 - - [17/Apr/2026 08:55:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-17 08:55:34,578 - INFO - 127.0.0.1 - - [17/Apr/2026 08:55:34] "GET / HTTP/1.1" 200 -
+2026-04-17 08:55:41,585 - INFO - 127.0.0.1 - - [17/Apr/2026 08:55:41] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-17 08:55:41,597 - INFO - 127.0.0.1 - - [17/Apr/2026 08:55:41] "GET /login HTTP/1.1" 200 -
+2026-04-17 09:24:32,643 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-17 09:24:32,643 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-17 09:24:32,671 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-17 09:24:33,778 - WARNING -  * Debugger is active!
+2026-04-17 09:24:33,789 - INFO -  * Debugger PIN: 705-466-690
+2026-04-17 09:24:38,668 - INFO - 127.0.0.1 - - [17/Apr/2026 09:24:38] "[32mGET / HTTP/1.1[0m" 302 -
+2026-04-17 09:24:38,848 - INFO - 127.0.0.1 - - [17/Apr/2026 09:24:38] "GET /login HTTP/1.1" 200 -
+2026-04-17 09:24:39,190 - INFO - 127.0.0.1 - - [17/Apr/2026 09:24:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-17 09:24:57,947 - INFO - Attack Detected | IP: 127.0.0.1 | Username: 33@gmail.com | Password: 33
+2026-04-17 09:24:57,961 - INFO - 127.0.0.1 - - [17/Apr/2026 09:24:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-17 09:24:57,989 - INFO - 127.0.0.1 - - [17/Apr/2026 09:24:57] "GET / HTTP/1.1" 200 -
+2026-04-17 09:25:09,702 - INFO - 127.0.0.1 - - [17/Apr/2026 09:25:09] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-17 09:25:09,712 - INFO - 127.0.0.1 - - [17/Apr/2026 09:25:09] "GET /login HTTP/1.1" 200 -
+2026-04-17 09:25:21,692 - INFO - 127.0.0.1 - - [17/Apr/2026 09:25:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-17 09:25:21,701 - INFO - 127.0.0.1 - - [17/Apr/2026 09:25:21] "GET / HTTP/1.1" 200 -
+2026-04-17 09:25:34,207 - INFO - 127.0.0.1 - - [17/Apr/2026 09:25:34] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-17 09:25:34,219 - INFO - 127.0.0.1 - - [17/Apr/2026 09:25:34] "GET /login HTTP/1.1" 200 -

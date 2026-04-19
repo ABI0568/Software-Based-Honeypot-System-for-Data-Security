@@ -1,0 +1,167 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+    .header-actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .header-actions h1 {
+        font-size: 32px;
+        font-weight: 700;
+        background: linear-gradient(to right, #fff, #cbd5e1);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .table-container {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+        margin-top: 10px;
+    }
+
+    th, td {
+        padding: 16px 24px;
+        text-align: left;
+    }
+
+    th {
+        color: var(--text-secondary);
+        font-weight: 600;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        border-bottom: 1px solid var(--glass-border);
+    }
+
+    td {
+        color: var(--text-primary);
+        font-size: 15px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    tbody tr {
+        transition: background-color 0.2s ease;
+    }
+
+    tbody tr:hover {
+        background-color: rgba(255, 255, 255, 0.03);
+    }
+
+    .course-badge {
+        background: rgba(139, 92, 246, 0.2);
+        color: #c4b5fd;
+        padding: 6px 12px;
+        border-radius: 20px;
+        font-size: 13px;
+        font-weight: 600;
+        display: inline-block;
+    }
+
+    .action-links {
+        display: flex;
+        gap: 12px;
+    }
+
+    .action-btn {
+        background: none;
+        border: none;
+        color: var(--text-secondary);
+        cursor: pointer;
+        padding: 8px;
+        border-radius: 8px;
+        transition: all 0.2s ease;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .action-btn:hover {
+        background: rgba(255, 255, 255, 0.1);
+        color: white;
+    }
+
+    .action-btn.edit:hover { color: #38bdf8; background: rgba(56, 189, 248, 0.1); }
+    .action-btn.delete:hover { color: #f87171; background: rgba(239, 68, 68, 0.1); }
+
+    .empty-state {
+        text-align: center;
+        padding: 60px 20px;
+        color: var(--text-secondary);
+    }
+
+    .empty-state i {
+        font-size: 48px;
+        margin-bottom: 16px;
+        opacity: 0.5;
+    }
+</style>
+
+<div class="glass-panel">
+    <div class="header-actions">
+        <h1>Student Roster</h1>
+        <a href="{{ url_for('add_student') }}" class="btn btn-primary">
+            <i class="fa-solid fa-plus"></i> Add Student
+        </a>
+    </div>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Student ID</th>
+                    <th>Name</th>
+                    <th>Email Address</th>
+                    <th>Course Enrolled</th>
+                    <th>Date Joined</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for student in students %}
+                <tr>
+                    <td>#{{ "%04d" | format(student.id) }}</td>
+                    <td style="font-weight: 500;">{{ student.name }}</td>
+                    <td><a href="mailto:{{ student.email }}" style="color: var(--text-secondary); text-decoration: none;">{{ student.email }}</a></td>
+                    <td><span class="course-badge">{{ student.course }}</span></td>
+                    <td style="color: var(--text-secondary);">{{ student.enrollment_date.strftime('%b %d, %Y') }}</td>
+                    <td>
+                        <div class="action-links">
+                            <a href="{{ url_for('edit_student', id=student.id) }}" class="action-btn edit" title="Edit Student">
+                                <i class="fa-solid fa-pen"></i>
+                            </a>
+                            <form action="{{ url_for('delete_student', id=student.id) }}" method="POST" style="display:inline;" onsubmit="return confirm('Are you sure you want to remove {{ student.name }} from the roster?');">
+                                <button type="submit" class="action-btn delete" title="Delete Student">
+                                    <i class="fa-solid fa-trash"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td colspan="6">
+                        <div class="empty-state">
+                            <i class="fa-solid fa-users-slash"></i>
+                            <h3>No Students Found</h3>
+                            <p style="margin-top: 8px;">Your database is currently empty. Start by adding a new student.</p>
+                        </div>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

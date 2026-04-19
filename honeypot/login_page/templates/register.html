@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+    .login-container {
+        max-width: 400px;
+        margin: 60px auto;
+        animation: fadeIn 0.5s ease-out;
+    }
+
+    .login-header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .login-header h1 {
+        font-size: 28px;
+        font-weight: 700;
+        background: linear-gradient(to right, #fff, #cbd5e1);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 8px;
+    }
+
+    .login-header p {
+        color: var(--text-secondary);
+        font-size: 15px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .btn-block {
+        width: 100%;
+        margin-top: 10px;
+        font-size: 16px;
+        padding: 14px;
+    }
+</style>
+
+<div class="login-container">
+    <div class="glass-panel" style="padding: 40px 30px;">
+        <div class="login-header">
+            <h1>Create Account</h1>
+            <p>Register as a new campus administrator</p>
+        </div>
+        
+        <form method="POST" action="{{ url_for('register') }}">
+            <div class="form-group">
+                <label class="form-label" for="username">Choose Username</label>
+                <div style="position: relative;">
+                    <i class="fa-solid fa-user" style="position: absolute; left: 16px; top: 18px; color: var(--text-secondary);"></i>
+                    <input type="text" id="username" name="username" class="form-control" style="padding-left: 45px;" required placeholder="Enter username">
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label class="form-label" for="password">Create Password</label>
+                <div style="position: relative;">
+                    <i class="fa-solid fa-lock" style="position: absolute; left: 16px; top: 18px; color: var(--text-secondary);"></i>
+                    <input type="password" id="password" name="password" class="form-control" style="padding-left: 45px;" required placeholder="Enter password">
+                </div>
+            </div>
+            
+            <button type="submit" class="btn btn-primary btn-block">
+                Register <i class="fa-solid fa-user-plus" style="margin-left: 8px;"></i>
+            </button>
+        </form>
+        
+        <div style="text-align: center; margin-top: 20px;">
+            <p style="color: var(--text-secondary); font-size: 14px;">
+                Already have an account? <a href="{{ url_for('login') }}" style="color: var(--accent); text-decoration: none; font-weight: 500;">Sign in</a>
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock %}
